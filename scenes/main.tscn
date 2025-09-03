@@ -1,3 +1,7 @@
-[gd_scene format=3 uid="uid://b6vmbpjlr6fv6"]
+[gd_scene load_steps=2 format=3 uid="uid://b6vmbpjlr6fv6"]
+
+[ext_resource type="PackedScene" uid="uid://p7p8cc0jc7g3" path="res://scenes/pointer.tscn" id="1_o5qli"]
 
 [node name="Main" type="Node2D"]
+
+[node name="Pointer" parent="." instance=ExtResource("1_o5qli")]
